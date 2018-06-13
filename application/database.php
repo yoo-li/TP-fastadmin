@@ -20,9 +20,9 @@ return [
     // 数据库名
     'database'        => Env::get('database.database', 'fastadmin'),
     // 用户名
-    'username'        => Env::get('database.username', 'root'),
+    'username'        => Env::get('database.username', 'fastadmin'),
     // 密码
-    'password'        => Env::get('database.password', ''),
+    'password'        => Env::get('database.password', 'root'),
     // 端口
     'hostport'        => Env::get('database.hostport', ''),
     // 连接dsn
